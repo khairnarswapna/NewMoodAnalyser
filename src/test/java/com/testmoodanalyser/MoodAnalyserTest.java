@@ -15,7 +15,6 @@ public class MoodAnalyserTest {
         MoodAnalyser analyser = new MoodAnalyser("THis is is SAD Message");
         String mood = analyser.analyseMood();
         assertEquals("SAD",mood );
-
     }
     @Test
     public void  givenMessage_whenthemoodnull_shouldReturnHappy() throws MoodAnalysisException
