@@ -5,9 +5,9 @@ import java.lang.reflect.InvocationTargetException;
 
 public class MoodAnalyserFactory {
 
-    public static MoodAnalyser createMoodAnalyser(String message)  {
+    public static MoodAnalyser createMoodAnalyser(String message) throws MoodAnalysisException {
         try {
-            Class<?> moodAnalysisClass = Class.forName("com.moodanalyser.MoodAnalyser");
+            Class<?> moodAnalysisClass = Class.forName("com.moodanalyser.NewmoodAnalyser");
             Constructor<?> moodConstructor = moodAnalysisClass.getConstructor(String.class);
             Object moodobj = moodConstructor.newInstance(message);
             return (MoodAnalyser) moodobj;
@@ -20,7 +20,9 @@ public class MoodAnalyserFactory {
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }catch (ClassNotFoundException e){
-            e.printStackTrace();
+            //e.printStackTrace();
+            throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.NO_SUCH_CLASS,"class not found!!!");
+
         }
 
         return null;

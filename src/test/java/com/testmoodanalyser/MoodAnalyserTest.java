@@ -25,7 +25,7 @@ public class MoodAnalyserTest {
             String mood = analyser.analyseMood(null);
         }
         catch(MoodAnalysisException e) {
-            Assert.assertEquals("please Enter valid Mood",e.getMessage());
+            Assert.assertEquals("please enter proper meassage",e.getMessage());
         }
     }
     @Test
@@ -60,27 +60,20 @@ public class MoodAnalyserTest {
        }
    }
     @Test
-    public void givenMoodAnalyserClass_whenProper_ShouldEqualbject()
+    public void givenMoodAnalyserClass_whenClassIsNameImproper_shouldthrow_MoodAnalysis()
     {
-        MoodAnalyser moodAnalyser = MoodAnalyserFactory.createMoodAnalyser("I am in HAPPY mood");
-        boolean result= moodAnalyser.equals(new MoodAnalyser("I am in HAPPY mood"));
-        Assert.assertEquals(true,result);
+        MoodAnalyser moodAnalyser = new MoodAnalyser("I am in HAPPY mood");
+        try {
+            moodAnalyser.analyseMood();
+        } catch (MoodAnalysisException e) {
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_CLASS,e.type);
+        }
     }
 
-    /*@Test
-    public void givenMoodAnalyserClass_() throws MoodAnalysisException
-    {
-        MoodAnalyser moodAnalyser = null;
-        try {
-            moodAnalyser = MoodAnalyserFactory.createMoodAnalyser();
-            MoodAnalyser moodAnalyser1= new MoodAnalyser();
-            boolean result= moodAnalyser.equals(moodAnalyser,moodAnalyser1);
-            Assert.assertFalse(result);
 
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-    }*/
+
+
+
 
 
 

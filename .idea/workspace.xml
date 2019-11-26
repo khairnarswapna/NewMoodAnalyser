@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalyser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalyserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalyserFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalysisException$ExceptionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalysisException$ExceptionType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/testmoodanalyser/MoodAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/testmoodanalyser/MoodAnalyserTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.testmoodanalyser.MoodAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.testmoodanalyser.MoodAnalyserTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
@@ -25,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalysisException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalysisException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/testmoodanalyser/MoodAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testmoodanalyser/MoodAnalyserTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenProper_ShouldEqualbject">
+  <component name="RunManager" selected="Gradle.MoodAnalyserTest">
     <configuration name="MoodAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -186,10 +188,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenProper_ShouldEqualbject" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenProper_ShouldReturnObject" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_WhenProper_ShouldReturnObjet" />
         <item itemvalue="Gradle.MoodAnalyserTest" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenProper_ShouldReturnObject" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenProper_ShouldEqualbject" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_WhenProper_ShouldReturnObjet" />
         <item itemvalue="Gradle.MoodAnalyserTest.givenMessage_whenthemoodnull_shouldReturnHappy" />
       </list>
     </recent_temporary>
