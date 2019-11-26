@@ -13,6 +13,11 @@ public class MoodAnalyser {
     }
     public String analyseMood() throws MoodAnalysisException {
         try {
+            if(message.length()==0) {
+
+                throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.ENTERD_EMPTY,"please enter proper meassage");
+
+            }
             if (message.contains("SAD"))
                 return "SAD";
             else
@@ -20,7 +25,7 @@ public class MoodAnalyser {
 
         }catch(NullPointerException e)
         {
-            throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.ENTERED_NULL,"please proper meassage");
+            throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.ENTERED_NULL,"please enter proper meassage");
         }
     }
 }
