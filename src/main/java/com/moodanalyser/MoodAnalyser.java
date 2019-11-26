@@ -15,17 +15,15 @@ public class MoodAnalyser {
     }
     public String analyseMood() throws MoodAnalysisException {
         try {
-            if (message.contains("SAD"))
 
+            if (message.contains("SAD")) {
                 return "SAD";
-            else
-
+            } else {
                 return "HAPPY";
-
-        }catch(NullPointerException e)
-        {
-            throw new MoodAnalysisException("please Enter valid Mood");
+            }
+        } catch (NullPointerException e) {
+            return "HAPPY";
         }
-    }
 
+    }
 }

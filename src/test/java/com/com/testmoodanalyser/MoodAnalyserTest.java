@@ -19,17 +19,16 @@ public class MoodAnalyserTest {
     public void givenMessage_whenHAPPY_shouldReturnHappy() throws MoodAnalysisException {
         MoodAnalyser analyser = new MoodAnalyser("THis is is HAPPY Message");
         String mood = analyser.analyseMood();
-        assertEquals("HAPPY",mood);
+        assertEquals("HAPPY", mood);
+
     }
     @Test
-    public void  givenMessage_whenthemoodnull_shouldReturnHappy() {
-        System.out.println("handle null pointer");
-        MoodAnalyser analyser = new MoodAnalyser(null);
-        try {
-            String mood = analyser.analyseMood();
-        } catch (MoodAnalysisException e) {
-            Assert.assertEquals("please Enter valid Mood", e.getMessage());
+    public void  givenMessage_whenthemoodnull_shouldReturnHappy() throws MoodAnalysisException
+    {
 
-        }
+        MoodAnalyser analyser = new MoodAnalyser(null);
+        String mood = analyser.analyseMood();
+        Assert.assertEquals("HAPPY",mood);
     }
+
 }
