@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5151ecf2-c22e-4b25-b95b-3bb459d7b89c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalysisException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalysisException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testmoodanalyser/MoodAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testmoodanalyser/MoodAnalyserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyser.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
