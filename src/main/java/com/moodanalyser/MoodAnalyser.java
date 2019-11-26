@@ -1,7 +1,5 @@
 package com.moodanalyser;
 
-import com.com.testmoodanalyser.MoodAnalysisException;
-
 public class MoodAnalyser {
 
     private String message;
@@ -15,15 +13,14 @@ public class MoodAnalyser {
     }
     public String analyseMood() throws MoodAnalysisException {
         try {
-
-            if (message.contains("SAD")) {
+            if (message.contains("SAD"))
                 return "SAD";
-            } else {
+            else
                 return "HAPPY";
-            }
-        } catch (NullPointerException e) {
-            return "HAPPY";
-        }
 
+        }catch(NullPointerException e)
+        {
+            throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.ENTERED_NULL,"please proper meassage");
+        }
     }
 }
