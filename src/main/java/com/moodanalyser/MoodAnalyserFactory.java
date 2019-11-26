@@ -5,11 +5,11 @@ import java.lang.reflect.InvocationTargetException;
 
 public class MoodAnalyserFactory {
 
-    public static MoodAnalyser createMoodAnalyser(String message) throws ClassNotFoundException {
+    public static MoodAnalyser createMoodAnalyser() throws ClassNotFoundException {
         try {
             Class<?> moodAnalysisClass = Class.forName("com.moodanalyser.MoodAnalyser");
-            Constructor<?> moodConstructor = moodAnalysisClass.getConstructor(String.class);
-            Object moodobj = moodConstructor.newInstance(message);
+            Constructor<?> moodConstructor = moodAnalysisClass.getConstructor();
+            Object moodobj = moodConstructor.newInstance();
             return (MoodAnalyser) moodobj;
         } catch (InstantiationException e) {
             e.printStackTrace();

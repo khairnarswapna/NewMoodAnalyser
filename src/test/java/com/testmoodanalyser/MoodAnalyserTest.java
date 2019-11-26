@@ -1,6 +1,7 @@
-package com.com.testmoodanalyser;
+package com.testmoodanalyser;
 
 import com.moodanalyser.MoodAnalyser;
+import com.moodanalyser.MoodAnalyserFactory;
 import com.moodanalyser.MoodAnalysisException;
 import org.junit.Assert;
 import org.junit.Test;
@@ -29,6 +30,15 @@ public class MoodAnalyserTest {
     }
     @Test
     public void giveNullMoodShouldThrowException() {
+        MoodAnalyser moodAnalyser = new MoodAnalyser(null);
+        try {
+            moodAnalyser.analyseMood();
+        } catch (MoodAnalysisException e) {
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.ENTERED_NULL,e.type);
+        }
+    }
+     @Test
+    public void giveEmptyMoodShouldThrowException() {
         MoodAnalyser moodAnalyser = new MoodAnalyser(" ");
         try {
             moodAnalyser.analyseMood();
@@ -36,4 +46,23 @@ public class MoodAnalyserTest {
             Assert.assertEquals(MoodAnalysisException.ExceptionType.ENTERD_EMPTY,e.type);
         }
     }
+
+    @Test
+    public void givenMoodAnalyserClass_WhenProper_ShouldReturnObjet() throws MoodAnalysisException{
+        MoodAnalyser moodAnalyser = null;
+        try {
+            moodAnalyser = MoodAnalyserFactory.createMoodAnalyser();
+            MoodAnalyser moodAnalyser1= new MoodAnalyser();
+            boolean result= moodAnalyser.equals(moodAnalyser,moodAnalyser1);
+            Assert.assertFalse(result);
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
+
+
 }
