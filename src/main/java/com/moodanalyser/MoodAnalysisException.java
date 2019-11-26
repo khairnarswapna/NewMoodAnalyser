@@ -10,12 +10,10 @@ public class MoodAnalysisException extends Exception {
         super(message);
         this.type=type;
     }
-
-    public MoodAnalysisException(String message) {
-        super(message);
+    public MoodAnalysisException(String enter_proper_class_name)
+    {
+        super(enter_proper_class_name);
     }
-
-
     public MoodAnalysisException(ExceptionType type, Throwable cause)
     {
         super(cause);
