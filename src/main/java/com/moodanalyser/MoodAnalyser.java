@@ -34,8 +34,11 @@ public class MoodAnalyser {
     }
 
     public boolean equals(Object another) {
-        if (another instanceof MoodAnalyser)
+        if (this.message.equals(((MoodAnalyser) another).message)) {
+            System.out.println(this.message.hashCode());
+             System.out.println(((MoodAnalyser) another).message.hashCode());
             return true;
+        }
         return false;
     }
 
