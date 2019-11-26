@@ -51,7 +51,7 @@ public class MoodAnalyserTest {
     public void givenMoodAnalyserClass_whenProper_ShouldReturnObject()
    {
        try {
-           MoodAnalyser moodAnalyser = MoodAnalyserFactory.createMoodAnalyser("I am in HAPPY mood");
+           MoodAnalyser moodAnalyser = MoodAnalyserFactory.createMoodAnalyser("i am in HAPPY mood ");
            String mood = moodAnalyser.analyseMood();
            Assert.assertEquals("HAPPY",mood);
        }
@@ -60,13 +60,23 @@ public class MoodAnalyserTest {
        }
    }
     @Test
-    public void givenMoodAnalyserClass_whenClassIsNameImproper_shouldthrow_MoodAnalysis()
-    {
+    public void givenMoodAnalyserClass_whenClassIsNameImproper_shouldThrow_MoodAnalysisException() {
         MoodAnalyser moodAnalyser = new MoodAnalyser("I am in HAPPY mood");
         try {
             moodAnalyser.analyseMood();
         } catch (MoodAnalysisException e) {
-            Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_CLASS,e.type);
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_CLASS, e.type);
+        }
+    }
+
+
+    @Test
+    public void givenMoodAnalyserClass_whenMethodNameIsImproper_shouldThrow_MoodAnalysisException(){
+        MoodAnalyser moodAnalyser=null;
+        try {
+             moodAnalyser = MoodAnalyserFactory.createMoodAnalyser2();
+        } catch (MoodAnalysisException e) {
+            Assert.assertEquals("No such method Found Error!!!",e.getMessage());
         }
     }
 
