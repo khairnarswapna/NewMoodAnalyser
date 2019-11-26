@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="8c0e62b3-974f-4149-aee7-541329a784a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
 =======
       <change beforePath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalysisException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalysisException.java" afterDir="false" />
 >>>>>>> usecase3
+=======
+    <list default="true" id="5151ecf2-c22e-4b25-b95b-3bb459d7b89c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalysisException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalysisException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testmoodanalyser/MoodAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testmoodanalyser/MoodAnalyserTest.java" afterDir="false" />
+>>>>>>> usecase4
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +71,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyserTest.giveNullMoodShouldThrowException">
+  <component name="RunManager" selected="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenClassIsNameImproper_shouldThrow_MoodAnalysisException">
     <configuration name="MoodAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.com.testmoodanalyser.MoodAnalyserTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -85,12 +92,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.giveNullMoodShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenMoodAnalyserClass_whenClassIsNameImproper_shouldThrow_MoodAnalysisException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.com.testmoodanalyser.MoodAnalyserTest.giveNullMoodShouldThrowException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenMoodAnalyserClass_whenClassIsNameImproper_shouldThrow_MoodAnalysisException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -105,12 +112,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenMessage_whenHAPPY_shouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldThrow_MoodAnalysisException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.com.testmoodanalyser.MoodAnalyserTest.givenMessage_whenHAPPY_shouldReturnHappy&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldThrow_MoodAnalysisException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -125,12 +132,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenMessage_whenSad_shouldReturnSad" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldthrow_MoodAnalysisException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.com.testmoodanalyser.MoodAnalyserTest.givenMessage_whenSad_shouldReturnSad&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldthrow_MoodAnalysisException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -145,12 +152,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenMessage_whenthemoodnull_shouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenMoodAnalyserClass_whenProper_ShouldReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.com.testmoodanalyser.MoodAnalyserTest.givenMessage_whenthemoodnull_shouldReturnHappy&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenMoodAnalyserClass_whenProper_ShouldReturnObject&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -167,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MoodAnalyserTest.giveNullMoodShouldThrowException" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenClassIsNameImproper_shouldThrow_MoodAnalysisException" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenProper_ShouldReturnObject" />
         <item itemvalue="Gradle.MoodAnalyserTest" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMessage_whenthemoodnull_shouldReturnHappy" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMessage_whenSad_shouldReturnSad" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMessage_whenHAPPY_shouldReturnHappy" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldThrow_MoodAnalysisException" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldthrow_MoodAnalysisException" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +200,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
