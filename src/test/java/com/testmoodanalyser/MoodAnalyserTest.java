@@ -48,18 +48,6 @@ public class MoodAnalyserTest {
         }
     }
 
-   @Test
-    public void givenMoodAnalyserClass_whenProper_ShouldReturnObject()
-   {
-       try {
-           MoodAnalyser moodAnalyser = MoodAnalyserReflector.createMoodAnalyser("i am in HAPPY mood ");
-           String mood = moodAnalyser.analyseMood();
-           Assert.assertEquals("HAPPY",mood);
-       }
-       catch (MoodAnalysisException e){
-           e.printStackTrace();
-       }
-   }
     @Test
     public void givenMoodAnalyserClass_whenClassIsNameImproper_shouldThrow_MoodAnalysisException() {
         MoodAnalyser moodAnalyser = new MoodAnalyser("I am in HAPPY mood");
@@ -71,11 +59,13 @@ public class MoodAnalyserTest {
     }
 
 
-    @Test
+   @Test
     public void givenMoodAnalyserClass_whenMethodNameIsImproper_shouldThrow_MoodAnalysisException(){
         MoodAnalyser moodAnalyser=null;
         try {
-             moodAnalyser = MoodAnalyserReflector.createMoodAnalyser2();
+             //moodAnalyser = MoodAnalyserReflector.createMoodAnalyser();
+            Constructor<?> constructor=MoodAnalyserReflector.getConstructor(String.class);
+            Object myObject= MoodAnalyserReflector.createMoodAnalyser(constructor,"I am in HAPPY mood ");
         } catch (MoodAnalysisException e) {
             Assert.assertEquals("No such method Found Error!!!",e.getMessage());
         }
@@ -86,7 +76,10 @@ public class MoodAnalyserTest {
     public void givenHappyMessage_withReflection_shouldReturnhappy() {
         Object myObject= null;
         try {
-            myObject = MoodAnalyserReflector.createMoodAnalyser("i am in HAPPY mood ");
+            //myObject = MoodAnalyserReflector.createMoodAnalyser("i am in HAPPY mood ");
+
+            Constructor<?> constructor=MoodAnalyserReflector.getConstructor(String.class);
+            myObject= MoodAnalyserReflector.createMoodAnalyser(constructor,"I am in HAPPY mood ");
             Object mood= MoodAnalyserReflector.invokeMethod(myObject,"analyseMood");
             Assert.assertEquals("HAPPY",mood);
         } catch (MoodAnalysisException e) {
@@ -99,17 +92,18 @@ public class MoodAnalyserTest {
     public void givenMoodAnalyser_OnchangeMood_shouldReturnhappy() {
 
         try {
-            Object myObject = MoodAnalyserReflector.createMoodAnalyser("i am in HAPPY mood ");
+            Constructor<?> constructor=MoodAnalyserReflector.getConstructor(String.class);
+            Object myObject= MoodAnalyserReflector.createMoodAnalyser(constructor,"I am in HAPPY mood ");
             MoodAnalyserReflector.setField(myObject,"message","I am in HAPPY mood");
         } catch (MoodAnalysisException e) {
             e.printStackTrace();
         }
     }
-
   @Test
     public void  givenMessage_withdefaultConstructor_shouldReturnHappy() {
         try {
-            Object myObject = MoodAnalyserReflector.createMoodAnalyser();
+            Constructor<?> constructor=MoodAnalyserReflector.getConstructor();
+            Object myObject = MoodAnalyserReflector.createMoodAnalyser(constructor);
             MoodAnalyserReflector.setField(myObject,"message", "I HAPPY am in mood");
             Object mood = MoodAnalyserReflector.invokeMethod(myObject, "analyseMood");
             Assert.assertEquals("HAPPY", mood);
@@ -118,11 +112,20 @@ public class MoodAnalyserTest {
         }
     }
 
-
+    /*for parametrized*/
     @Test
-    public void  givenMessage_withdefaultConstructor1_shouldReturnHappy() {
-
-       Constructor<?> constructor=MoodAnalyserReflector.getConstructor();
-       Object
+    public void givenMoodAnalyserClass_whenProper_ShouldReturnObject()
+    {
+        try {
+            Constructor<?> constructor=MoodAnalyserReflector.getConstructor(String.class);
+            Object myObject= MoodAnalyserReflector.createMoodAnalyser(constructor,"I am in HAPPY mood ");
+           // String mood = moodAnalyser.analyseMood();
+            //Assert.assertEquals("HAPPY",mood);
+            Assert.assertEquals(new MoodAnalyser("I am in HAPPY mood"),myObject);
+        }
+        catch (MoodAnalysisException e){
+            e.printStackTrace();
+        }
     }
+
 }

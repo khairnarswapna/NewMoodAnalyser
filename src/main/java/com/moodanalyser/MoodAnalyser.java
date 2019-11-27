@@ -1,5 +1,7 @@
 package com.moodanalyser;
 
+import java.lang.reflect.Constructor;
+
 public class MoodAnalyser {
 
     private String message;
@@ -10,9 +12,6 @@ public class MoodAnalyser {
     public MoodAnalyser(String message) {
         this.message = message;
     }
-
-
-
     public String analyseMood(String message) throws MoodAnalysisException {
         this.message = message;
         return analyseMood();
@@ -34,6 +33,12 @@ public class MoodAnalyser {
             throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.ENTERED_NULL, "please enter proper meassage");
         }
     }
+    public boolean equals(Object obj) {
+       if(obj instanceof MoodAnalyser)
+           return true;
+        return false;
+   }
+
 
     
 }
