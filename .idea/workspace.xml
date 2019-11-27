@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5151ecf2-c22e-4b25-b95b-3bb459d7b89c" name="Default Changelist" comment="">
+    <list default="true" id="8c0e62b3-974f-4149-aee7-541329a784a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalyserReflector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyserReflector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalyser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalyserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalysisException$ExceptionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalysisException$ExceptionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalysisException.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/moodanalyser/MoodAnalysisException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/testmoodanalyser/MoodAnalyserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/testmoodanalyser/MoodAnalyserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.testmoodanalyser.MoodAnalyserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.testmoodanalyser.MoodAnalyserTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.testmoodanalyser.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.testmoodanalyser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.testmoodanalyser.MoodAnalyserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.testmoodanalyser.MoodAnalyserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyserFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalysisException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalysisException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testmoodanalyser/MoodAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testmoodanalyser/MoodAnalyserTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +65,7 @@
   <component name="ProjectId" id="1U8dDpCo2gg5KDayQpV190ftUA3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
   </component>
   <component name="RecentsManager">
@@ -60,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenClassIsNameImproper_shouldThrow_MoodAnalysisException">
+  <component name="RunManager" selected="Gradle.MoodAnalyserTest.givenMessage_withdefaultConstructor_shouldReturnHappy">
     <configuration name="MoodAnalyserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -81,12 +109,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenMoodAnalyserClass_whenClassIsNameImproper_shouldThrow_MoodAnalysisException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenHappyMessage_withReflection_shouldReturnhappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenMoodAnalyserClass_whenClassIsNameImproper_shouldThrow_MoodAnalysisException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenHappyMessage_withReflection_shouldReturnhappy&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -101,12 +129,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldThrow_MoodAnalysisException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenMessage_whenSad_shouldReturnSad" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldThrow_MoodAnalysisException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenMessage_whenSad_shouldReturnSad&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -121,12 +149,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldthrow_MoodAnalysisException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenMessage_whenthemoodnull_shouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldthrow_MoodAnalysisException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenMessage_whenthemoodnull_shouldReturnHappy&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -141,12 +169,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyserTest.givenMoodAnalyserClass_whenProper_ShouldReturnObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyserTest.givenMessage_withdefaultConstructor_shouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenMoodAnalyserClass_whenProper_ShouldReturnObject&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmoodanalyser.MoodAnalyserTest.givenMessage_withdefaultConstructor_shouldReturnHappy&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -163,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenClassIsNameImproper_shouldThrow_MoodAnalysisException" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenProper_ShouldReturnObject" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMessage_withdefaultConstructor_shouldReturnHappy" />
         <item itemvalue="Gradle.MoodAnalyserTest" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldThrow_MoodAnalysisException" />
-        <item itemvalue="Gradle.MoodAnalyserTest.givenMoodAnalyserClass_whenMethodNameIsImproper_shouldthrow_MoodAnalysisException" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMessage_whenthemoodnull_shouldReturnHappy" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenMessage_whenSad_shouldReturnSad" />
+        <item itemvalue="Gradle.MoodAnalyserTest.givenHappyMessage_withReflection_shouldReturnhappy" />
       </list>
     </recent_temporary>
   </component>
@@ -196,5 +224,41 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyserReflector.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyser.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyser.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyser.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/moodanalyser/MoodAnalyser.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/testmoodanalyser/MoodAnalyserTest.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

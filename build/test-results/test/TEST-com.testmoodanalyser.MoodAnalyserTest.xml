@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testmoodanalyser.MoodAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-26T12:21:27" hostname="admin142-desktop" time="0.0">
+<testsuite name="com.testmoodanalyser.MoodAnalyserTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-27T08:12:53" hostname="admin142-desktop" time="0.002">
   <properties/>
-  <testcase name="givenMoodAnalyserClass_whenClassIsNameImproper_shouldThrow_MoodAnalysisException" classname="com.testmoodanalyser.MoodAnalyserTest" time="0.0"/>
+  <testcase name="givenMessage_withdefaultConstructor_shouldReturnHappy" classname="com.testmoodanalyser.MoodAnalyserTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
